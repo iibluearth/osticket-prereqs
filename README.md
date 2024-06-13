@@ -288,8 +288,6 @@ Adjust permissions for "ost-config.php" as before.
 Log in to the osTicket Help Desk at http://localhost/osTicket/scp/login.php.
 Access the osTicket End User Page at http://localhost/osTicket/.
 
-You
-
 </p>
 <br />
 
