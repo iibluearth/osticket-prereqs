@@ -1,4 +1,4 @@
-# osticket-prereqs
+`# osticket-prereqs
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Using 4 vCPU virtual machine through Microsoft Azure. 
-- Download the necessary installation files through Link 1 and Link 2 
+- Download the necessary installation files through [Link 1](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) and Link 2 
 
  <h2>Installation Steps</h2>
 
