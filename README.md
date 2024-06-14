@@ -104,7 +104,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 6. Install Additional Components:
 
 - Install "VC_redist.x86" and "mysql-5.5.62-win32".
-- Choose "Typical" setup for MySQL and configure with "Password1".
+- Choose "Typical" setup for MySQL and configure with "Labpassword1".
 </p>
 <br />
 
@@ -112,10 +112,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/4qSaDlu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-7. Open ISS Manager:
+7. Open IIS Manager:
 
-- Search for "ISS" in the Windows search bar.
-- Right-click "Internet Information Services (ISS) Manager" and select "Run as administrator".
+- Search for "IIS" in the Windows search bar.
+- Right-click "Internet Information Services (IIS) Manager" and select "Run as administrator".
 </p>
 <br />
 
@@ -133,9 +133,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 8. Register PHP Version:
 
-- Open "PHP Manager" within ISS Manager.
+- Open "PHP Manager" within IIS Manager.
 - Click "Register new PHP version" and navigate to the "php-cgi" file in the "PHP" folder.
-- Restart ISS Manager after registration.
+- Restart IIS Manager after registration.
 </p>
 <br />
 
@@ -151,7 +151,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Copy the "upload" folder from the "osTicket-v1.15.8" zip file.
 - Paste the folder into "C:\inetpub\wwwroot" and rename it to "osTicket".
-- Restart the server in ISS Manager.
+- Restart the server in IIS Manager.
 </p>
 <br />
 
@@ -161,7 +161,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 10. Access osTicket Installer:
 
-- In ISS Manager, expand "Sites" > "Default Web Site" > click "osTicket" > "Browse*:80(http)".
+- In IIS Manager, expand "Sites" > "Default Web Site" > click "osTicket" > "Browse*:80(http)".
 </p>
 <br />
 
@@ -213,7 +213,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 12. Rename Configuration File:
 
-In the "Properties" window, go to the "Security" tab and click "Advanced." Then, in the "Advanced Security Settings for ost-config.php" window, choose to "Disable inheritance" and remove all inherited permissions. After that, go back to the same window and click "Add." Select "Select a principle," type "Everyone," and click OK. In the "Permission Entry" window, select all permissions and click OK. Finally, in the "Advanced Security Settings" window, click "Apply" and then "OK" to save the changes.
+- Open the "Properties" window of the file "ost-config.php".
+
+- Navigate to the "Security" tab within the "Properties" window.
+
+- Click on the "Advanced" button at the bottom of the "Security" tab.
+
+- In the "Advanced Security Settings for ost-config.php" window, locate and click on the "Disable inheritance" button. Confirm by selecting "Remove all inherited permissions from this object".
+
+- After disabling inheritance, return to the "Advanced Security Settings" window.
+
+- Click on the "Add" button to add a new permission entry.
+
+- In the "Permission Entry" window, click on "Select a principal".
+
+- Type "Everyone" in the text field and click "Check Names" to verify.
+
+- Once verified, click "OK" to add "Everyone" as a new principal.
+
+- In the "Permission Entry" window, ensure that all permissions are selected (typically Full Control, Modify, Read & Execute, Read, and Write).
+
+- Click "OK" to confirm the selected permissions for "Everyone".
+
+- Back in the "Advanced Security Settings" window, click "Apply" to apply the changes.
+
+- Click "OK" to close the "Advanced Security Settings" window and save the changes.
 </p>
 <br />
 
