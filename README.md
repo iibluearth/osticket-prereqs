@@ -250,7 +250,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 13. Complete osTicket Installation:
 
 - Continue the osTicket installation in the browser, filling out the form with test information.
-- Use "Password1" for all passwords.
+- Use "Labpassword1" for all passwords.
 </p>
 <br />
 
