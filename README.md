@@ -279,7 +279,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
  <p>
-<img src="https://i.imgur.com/g0BbVe9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0JUEHMG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 16. Finish osTicket Installation:
@@ -290,11 +290,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
  <p>
-<img src="https://i.imgur.com/t0Fc5dl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xPYmTMy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  <p>
-<img src="https://i.imgur.com/XcX7wcI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/I6sU2m3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 17. Finalize Configuration:
@@ -305,7 +305,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
  <p>
-<img src="https://i.imgur.com/aJthXvJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CS0Ry5z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 18. Access osTicket:
